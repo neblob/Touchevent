@@ -31,6 +31,7 @@ public class Myview extends View {
         paint.setColor(Color.BLACK);
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeWidth(5);
+        paint.setAntiAlias(true);
         canvas.drawLine(0, mY, canvas.getWidth(), mY, paint);
 
         paint.setStyle(Paint.Style.FILL);
